@@ -1,4 +1,6 @@
-# controller-routes
+# controller routes
+# sailsjs controller redirect to another controller
+To use the parameters of other controller in the present controller.
 
 a [Sails](http://sailsjs.org) application
 
