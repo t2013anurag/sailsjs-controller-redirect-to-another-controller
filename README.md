@@ -20,7 +20,7 @@ Even though we haven't defined routes.
 ##To pass a single parameter : 
 In the login controller do this : 
 
-'index' : function(req,res){
+    'index' : function(req,res){
 		console.log('First Redirect');
 		var param1 = "something";
 		res.redirect('/login/new1/'+param1); //passing a single parameter Route : '/login/new1/:param1' : 'LoginController.new1'
@@ -43,7 +43,7 @@ In the login controller do this :
 	
 	##To pass a multiple parameters :
 	
-'index' : function(req,res){
+    'index' : function(req,res){
 		console.log('First Redirect');
 		var param1 = "something";
 		var param2 = "else";
