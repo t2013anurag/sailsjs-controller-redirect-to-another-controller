@@ -67,12 +67,11 @@ In the login controller do this :
 	
 	##Routes will be like :
 	
-module.exports.routes = {
-
-  '/': {
+  module.exports.routes = {
+    '/': {
     view: 'homepage'
-  },
-'/dashboard' : 'LoginController.index',
-'/login/new1/:param1' : 'LoginController.new1' //for single param
-'/login/new1/:param1/:param2' : 'LoginController.new1' //for multiple params
-};
+    },
+    '/dashboard' : 'LoginController.index',
+    '/login/new1/:param1' : 'LoginController.new1' //for single param
+    '/login/new1/:param1/:param2' : 'LoginController.new1' //for multiple params
+  };
